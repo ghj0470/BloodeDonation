@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TableLayout
+        android:id="@+id/tableLayout"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:padding="50dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/text_paperweight"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="전자문진"
+                android:textSize="30sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/text_today"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="오늘몸상태" />
+
+            <Spinner
+                android:id="@+id/spinner5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:entries="@array/data_today" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/text_day"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="최근1일이내" />
+
+            <Spinner
+                android:id="@+id/spinner6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:entries="@array/data_day" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/text_week"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="최근1주일이내" />
+
+            <Spinner
+                android:id="@+id/spinner7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:entries="@array/data_week" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/text_month"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="최근1개월이내" />
+
+            <Spinner
+                android:id="@+id/spinner8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:entries="@array/data_month" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/text_6month"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="최근6개월이내" />
+
+            <Spinner
+                android:id="@+id/spinner9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:entries="@array/data_6month" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/text_year"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="최근1년이내" />
+
+            <Spinner
+                android:id="@+id/spinner10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:entries="@array/data_year" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/text_all"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="기간상관없이" />
+
+            <Spinner
+                android:id="@+id/spinner11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:entries="@array/data_all" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/btn_paperNext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="다음" />
+        </TableRow>
+    </TableLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="27dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <Button
+            android:id="@+id/btn_main"
+            style="@style/Widget.AppCompat.Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="메인화면"
+            tools:layout_editor_absoluteX="1dp"
+            tools:layout_editor_absoluteY="684dp" />
+
+        <Button
+            android:id="@+id/btn_donate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="헌혈내역"
+            tools:layout_editor_absoluteX="116dp"
+            tools:layout_editor_absoluteY="684dp" />
+
+        <Button
+            android:id="@+id/btn_paperweight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="전자문진"
+            tools:layout_editor_absoluteX="227dp"
+            tools:layout_editor_absoluteY="684dp" />
+
+        <Button
+            android:id="@+id/btn_person"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="개인정보"
+            tools:layout_editor_absoluteX="324dp"
+            tools:layout_editor_absoluteY="684dp" />
+
+    </LinearLayout>
+
+    <TableLayout
+        android:id="@+id/tableLayout3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="배제대상" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/info" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btn_no"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="아니오" />
+
+                <Button
+                    android:id="@+id/btn_yes"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="예" />
+            </LinearLayout>
+        </TableRow>
+
+    </TableLayout>
+
+
+</android.support.constraint.ConstraintLayout>

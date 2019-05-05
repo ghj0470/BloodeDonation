@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TableLayout
+        android:id="@+id/tableLayout2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="129dp"
+                android:layout_height="wrap_content"
+                android:text="전자문진"
+                android:textSize="30sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="헌혈금지약물" />
+
+            <Spinner
+                android:id="@+id/spinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:entries="@array/data_medic" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="감염병" />
+
+            <Spinner
+                android:id="@+id/spinner2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:entries="@array/data_disease" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="말라리아" />
+
+            <Spinner
+                android:id="@+id/spinner3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:entries="@array/data_malaria" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="변종 크로이츠펠트 - 야콥병" />
+
+            <Spinner
+                android:id="@+id/spinner4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:entries="@array/data_jakob" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="완료" />
+
+        </TableRow>
+
+    </TableLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="27dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <Button
+            android:id="@+id/btn_main"
+            style="@style/Widget.AppCompat.Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="메인화면"
+            tools:layout_editor_absoluteX="1dp"
+            tools:layout_editor_absoluteY="684dp" />
+
+        <Button
+            android:id="@+id/btn_donate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="헌혈내역"
+            tools:layout_editor_absoluteX="116dp"
+            tools:layout_editor_absoluteY="684dp" />
+
+        <Button
+            android:id="@+id/btn_paperweight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="전자문진"
+            tools:layout_editor_absoluteX="227dp"
+            tools:layout_editor_absoluteY="684dp" />
+
+        <Button
+            android:id="@+id/btn_person"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="개인정보"
+            tools:layout_editor_absoluteX="324dp"
+            tools:layout_editor_absoluteY="684dp" />
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

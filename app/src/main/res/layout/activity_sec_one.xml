@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".paperweight.SecondActivity">
+
+    <CalendarView
+        android:id="@+id/calendar"
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="1"
+        android:focusedMonthDateColor="#ff0000"
+        android:maxDate="12/31/2019"
+        android:minDate="01/01/2019"
+        android:unfocusedMonthDateColor="#0000ff"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="76dp" />
+
+
+
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="메인화면"
+        tools:layout_editor_absoluteX="24dp"
+        tools:layout_editor_absoluteY="641dp"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="헌혈내역"
+        tools:layout_editor_absoluteX="112dp"
+        tools:layout_editor_absoluteY="641dp"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="전자문진"
+        tools:layout_editor_absoluteX="200dp"
+        tools:layout_editor_absoluteY="641dp"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="개인정보"
+        tools:layout_editor_absoluteX="288dp"
+        tools:layout_editor_absoluteY="641dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="84dp"
+        android:layout_height="42dp"
+        android:text="오늘은"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        tools:layout_editor_absoluteX="28dp"
+        tools:layout_editor_absoluteY="414dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="92dp"
+        android:layout_height="42dp"
+        android:text="헌혈 가능"
+        android:textAlignment="center"
+        android:textSize="21sp"
+        tools:layout_editor_absoluteX="271dp"
+        tools:layout_editor_absoluteY="414dp" />
+
+    <TextView
+        android:id="@+id/textdate"
+        android:layout_width="160dp"
+        android:layout_height="42dp"
+        tools:layout_editor_absoluteX="112dp"
+        tools:layout_editor_absoluteY="414dp" />
+
+    <TextView
+        android:id="@+id/textedit"
+        android:layout_width="33dp"
+        android:layout_height="28dp"
+        android:text="월"
+        android:textAlignment="center"
+        tools:layout_editor_absoluteX="167dp"
+        tools:layout_editor_absoluteY="537dp" />
+
+    <TextView
+        android:id="@+id/textedit3"
+        android:layout_width="35dp"
+        android:layout_height="28dp"
+        android:text="일"
+        android:textAlignment="center"
+        tools:layout_editor_absoluteX="244dp"
+        tools:layout_editor_absoluteY="537dp" />
+
+    <TextView
+        android:id="@+id/textedit4"
+        android:layout_width="39dp"
+        android:layout_height="28dp"
+        android:text="유형"
+        android:textAlignment="center"
+        tools:layout_editor_absoluteX="278dp"
+        tools:layout_editor_absoluteY="537dp" />
+
+    <TextView
+        android:id="@+id/textedit2"
+        android:layout_width="31dp"
+        android:layout_height="28dp"
+        android:text="년"
+        android:textAlignment="center"
+        tools:layout_editor_absoluteX="88dp"
+        tools:layout_editor_absoluteY="537dp" />
+
+    <TextView
+        android:id="@+id/textedit5"
+        android:layout_width="115dp"
+        android:layout_height="22dp"
+        android:text="헌혈내역 입력"
+        android:textAlignment="center"
+        tools:layout_editor_absoluteX="28dp"
+        tools:layout_editor_absoluteY="490dp" />
+
+    <android.support.v7.widget.AppCompatSpinner
+        android:id="@+id/year"
+        android:layout_width="60dp"
+        android:layout_height="28dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="28dp"
+        tools:layout_editor_absoluteY="537dp"></android.support.v7.widget.AppCompatSpinner>
+
+    <android.support.v7.widget.AppCompatSpinner
+        android:id="@+id/month"
+        android:layout_width="48dp"
+        android:layout_height="28dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="119dp"
+        tools:layout_editor_absoluteY="537dp"></android.support.v7.widget.AppCompatSpinner>
+
+    <android.support.v7.widget.AppCompatSpinner
+        android:id="@+id/day"
+        android:layout_width="44dp"
+        android:layout_height="28dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="200dp"
+        tools:layout_editor_absoluteY="537dp"></android.support.v7.widget.AppCompatSpinner>
+
+    <android.support.v7.widget.AppCompatSpinner
+        android:id="@+id/type"
+        android:layout_width="78dp"
+        android:layout_height="28dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="317dp"
+        tools:layout_editor_absoluteY="537dp"></android.support.v7.widget.AppCompatSpinner>
+</android.support.constraint.ConstraintLayout>

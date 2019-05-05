@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView24"
+        android:layout_width="152dp"
+        android:layout_height="38dp"
+        android:text="글 작성"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        tools:layout_editor_absoluteX="129dp"
+        tools:layout_editor_absoluteY="71dp" />
+
+    <Button
+        android:id="@+id/button15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="저장"
+        tools:layout_editor_absoluteX="161dp"
+        tools:layout_editor_absoluteY="646dp" />
+
+    <TextView
+        android:id="@+id/textView25"
+        android:layout_width="61dp"
+        android:layout_height="47dp"
+        android:text="제목"
+        android:textAlignment="textStart"
+        android:textSize="30sp"
+        tools:layout_editor_absoluteX="17dp"
+        tools:layout_editor_absoluteY="189dp" />
+
+    <TextView
+        android:id="@+id/textView26"
+        android:layout_width="61dp"
+        android:layout_height="44dp"
+        android:text="참조"
+        android:textSize="30sp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="240dp" />
+
+    <TextView
+        android:id="@+id/textView27"
+        android:layout_width="61dp"
+        android:layout_height="34dp"
+        android:text="내용"
+        android:textSize="30sp"
+        tools:layout_editor_absoluteX="17dp"
+        tools:layout_editor_absoluteY="305dp" />
+
+    <EditText
+        android:layout_width="288dp"
+        android:layout_height="295dp"
+        tools:layout_editor_absoluteX="77dp"
+        tools:layout_editor_absoluteY="305dp" />
+
+    <EditText
+        android:layout_width="283dp"
+        android:layout_height="46dp"
+        tools:layout_editor_absoluteX="78dp"
+        tools:layout_editor_absoluteY="189dp" />
+
+    <Button
+        android:id="@+id/button11"
+        android:layout_width="88dp"
+        android:layout_height="44dp"
+        android:text="파일"
+        tools:layout_editor_absoluteX="78dp"
+        tools:layout_editor_absoluteY="240dp" />
+</android.support.constraint.ConstraintLayout>

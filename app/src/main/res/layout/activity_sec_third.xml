@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".information.SecondTwoActivity">
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="89dp"
+        android:layout_height="32dp"
+        android:text="Kg"
+        tools:layout_editor_absoluteX="306dp"
+        tools:layout_editor_absoluteY="227dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="89dp"
+        android:layout_height="32dp"
+        android:text="ºC"
+        tools:layout_editor_absoluteX="306dp"
+        tools:layout_editor_absoluteY="387dp"
+        android:gravity="center_horizontal"
+        tools:ignore="MissingConstraints"
+        />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="89dp"
+        android:layout_height="32dp"
+        android:text="회"
+        tools:layout_editor_absoluteX="306dp"
+        tools:layout_editor_absoluteY="464dp"
+        tools:ignore="MissingConstraints"/>
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="89dp"
+        android:layout_height="32dp"
+        android:text="생년월일"
+        tools:layout_editor_absoluteX="35dp"
+        tools:layout_editor_absoluteY="146dp"
+        android:gravity="center_horizontal"
+        tools:ignore="MissingConstraints"/>
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="89dp"
+        android:layout_height="32dp"
+        android:text="체중"
+        tools:layout_editor_absoluteX="35dp"
+        tools:layout_editor_absoluteY="227dp"
+        android:gravity="center_horizontal"
+        tools:ignore="MissingConstraints"/>
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="89dp"
+        android:layout_height="32dp"
+        android:text="체온"
+        tools:layout_editor_absoluteX="35dp"
+        tools:layout_editor_absoluteY="387dp"
+        android:gravity="center_horizontal"
+        tools:ignore="MissingConstraints"/>
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="89dp"
+        android:layout_height="32dp"
+        android:text="맥박"
+        tools:layout_editor_absoluteX="35dp"
+        tools:layout_editor_absoluteY="464dp"
+        android:gravity="center_horizontal"
+        tools:ignore="MissingConstraints"/>
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="89dp"
+        android:layout_height="32dp"
+        android:text="분당"
+        tools:layout_editor_absoluteX="124dp"
+        tools:layout_editor_absoluteY="464dp"
+        android:gravity="center_horizontal"
+        tools:ignore="MissingConstraints"/>
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="89dp"
+        android:layout_height="66dp"
+        android:text="혈압"
+        tools:layout_editor_absoluteX="34dp"
+        tools:layout_editor_absoluteY="285dp"
+        android:gravity="center_horizontal"
+        tools:ignore="MissingConstraints"/>
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="71dp"
+        android:layout_height="32dp"
+        android:text="수축기"
+        tools:layout_editor_absoluteX="124dp"
+        tools:layout_editor_absoluteY="285dp"
+        android:gravity="center_horizontal"
+        tools:ignore="MissingConstraints"/>
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="71dp"
+        android:layout_height="32dp"
+        android:text="mmHg"
+        tools:layout_editor_absoluteX="324dp"
+        tools:layout_editor_absoluteY="285dp"
+        android:gravity="center_horizontal"
+        tools:ignore="MissingConstraints"/>
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="71dp"
+        android:layout_height="34dp"
+        android:text="이완기"
+        tools:layout_editor_absoluteX="124dp"
+        tools:layout_editor_absoluteY="317dp"
+        android:gravity="center_horizontal"
+        tools:ignore="MissingConstraints"/>
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="71dp"
+        android:layout_height="34dp"
+        android:text="mmHg"
+        tools:layout_editor_absoluteX="324dp"
+        tools:layout_editor_absoluteY="317dp"
+        android:gravity="center_horizontal"
+        tools:ignore="MissingConstraints"/>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="232dp"
+        android:layout_height="44dp"
+        android:text="개인정보"
+        tools:layout_editor_absoluteX="89dp"
+        tools:layout_editor_absoluteY="78dp"
+        android:gravity="center_horizontal"
+        tools:ignore="MissingConstraints"/>
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="저장"
+        tools:layout_editor_absoluteX="161dp"
+        tools:layout_editor_absoluteY="553dp"
+        tools:ignore="MissingConstraints"/>
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="메인화면"
+        tools:layout_editor_absoluteX="35dp"
+        tools:layout_editor_absoluteY="667dp"
+        tools:ignore="MissingConstraints"/>
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="헌혈내역"
+        tools:layout_editor_absoluteX="124dp"
+        tools:layout_editor_absoluteY="667dp"
+        tools:ignore="MissingConstraints"/>
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="전자문진"
+        tools:layout_editor_absoluteX="213dp"
+        tools:layout_editor_absoluteY="667dp"
+        tools:ignore="MissingConstraints"/>
+
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="개인정보"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="297dp"
+        tools:layout_editor_absoluteY="667dp" />
+
+    <EditText
+        android:layout_width="266dp"
+        android:layout_height="32dp"
+        android:id="@+id/birth"
+        tools:layout_editor_absoluteX="124dp"
+        tools:layout_editor_absoluteY="146dp"
+        tools:ignore="MissingConstraints"/>
+
+    <EditText
+        android:id="@+id/kg"
+        android:layout_width="183dp"
+        android:layout_height="32dp"
+        tools:layout_editor_absoluteX="123dp"
+        tools:layout_editor_absoluteY="227dp"
+        tools:ignore="MissingConstraints"/>
+
+    <EditText
+        android:id="@+id/btemp"
+        android:layout_width="183dp"
+        android:layout_height="31dp"
+        tools:layout_editor_absoluteX="123dp"
+        tools:layout_editor_absoluteY="387dp"
+        tools:ignore="MissingConstraints"/>
+
+    <EditText
+        android:id="@+id/maxbp"
+        android:layout_width="128dp"
+        android:layout_height="30dp"
+        tools:layout_editor_absoluteX="197dp"
+        tools:layout_editor_absoluteY="285dp"
+        tools:ignore="MissingConstraints"/>
+
+    <EditText
+        android:id="@+id/minbp"
+        android:layout_width="130dp"
+        android:layout_height="32dp"
+        tools:layout_editor_absoluteX="195dp"
+        tools:layout_editor_absoluteY="317dp"
+        tools:ignore="MissingConstraints"/>
+
+    <EditText
+        android:id="@+id/bloodpulse"
+        android:layout_width="93dp"
+        android:layout_height="33dp"
+        tools:layout_editor_absoluteX="213dp"
+        tools:layout_editor_absoluteY="464dp"
+        tools:ignore="MissingConstraints"/>
+</android.support.constraint.ConstraintLayout>
