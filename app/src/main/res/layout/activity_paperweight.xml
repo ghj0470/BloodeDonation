@@ -40,7 +40,7 @@
                 android:text="오늘몸상태" />
 
             <Spinner
-                android:id="@+id/spinner5"
+                android:id="@+id/spinner_today"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:entries="@array/data_today" />
@@ -57,7 +57,7 @@
                 android:text="최근1일이내" />
 
             <Spinner
-                android:id="@+id/spinner6"
+                android:id="@+id/spinner_day"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:entries="@array/data_day" />
@@ -74,7 +74,7 @@
                 android:text="최근1주일이내" />
 
             <Spinner
-                android:id="@+id/spinner7"
+                android:id="@+id/spinner_week"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:entries="@array/data_week" />
@@ -91,7 +91,7 @@
                 android:text="최근1개월이내" />
 
             <Spinner
-                android:id="@+id/spinner8"
+                android:id="@+id/spinner_month"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:entries="@array/data_month" />
@@ -108,7 +108,7 @@
                 android:text="최근6개월이내" />
 
             <Spinner
-                android:id="@+id/spinner9"
+                android:id="@+id/spinner_6month"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:entries="@array/data_6month" />
@@ -125,7 +125,7 @@
                 android:text="최근1년이내" />
 
             <Spinner
-                android:id="@+id/spinner10"
+                android:id="@+id/spinner_year"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:entries="@array/data_year" />
@@ -142,7 +142,7 @@
                 android:text="기간상관없이" />
 
             <Spinner
-                android:id="@+id/spinner11"
+                android:id="@+id/spinner_else"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:entries="@array/data_all" />
