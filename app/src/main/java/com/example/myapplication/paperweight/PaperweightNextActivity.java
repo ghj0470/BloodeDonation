@@ -50,7 +50,7 @@ public class PaperweightNextActivity extends AppCompatActivity {
 
             }
         });
-
+    
 
         //상태관련 이미지 출력
         button_medic = (Button) findViewById(R.id.button_medic);
