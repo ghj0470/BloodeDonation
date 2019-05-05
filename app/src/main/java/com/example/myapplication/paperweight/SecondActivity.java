@@ -37,10 +37,10 @@ public class SecondActivity extends AppCompatActivity {
                         +dayOfMonth, Toast.LENGTH_SHORT).show();
             }
         });
-        Button btn1 = (Button)findViewById(R.id.button2);
-        Button btn2 = (Button)findViewById(R.id.button3);
-        Button btn3 = (Button)findViewById(R.id.button4);
-        Button btn4 = (Button)findViewById(R.id.button5);
+        Button btn1 = (Button)findViewById(R.id.button_disease);
+        Button btn2 = (Button)findViewById(R.id.button_malaria);
+        Button btn3 = (Button)findViewById(R.id.button_Jakob);
+        Button btn4 = (Button)findViewById(R.id.button_OK);
         Spinner year = (Spinner)findViewById(R.id.year);
         Spinner month = (Spinner)findViewById(R.id.month);
         Spinner day = (Spinner)findViewById(R.id.day);

@@ -37,13 +37,13 @@
             android:layout_height="match_parent">
 
             <Button
-                android:id="@+id/button"
+                android:id="@+id/button_medic"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="헌혈금지약물" />
 
             <Spinner
-                android:id="@+id/spinner"
+                android:id="@+id/spinner_medic"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:entries="@array/data_medic" />
@@ -54,13 +54,13 @@
             android:layout_height="match_parent">
 
             <Button
-                android:id="@+id/button2"
+                android:id="@+id/button_disease"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="감염병" />
 
             <Spinner
-                android:id="@+id/spinner2"
+                android:id="@+id/spinner_disease"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:entries="@array/data_disease" />
@@ -71,13 +71,13 @@
             android:layout_height="match_parent">
 
             <Button
-                android:id="@+id/button3"
+                android:id="@+id/button_malaria"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="말라리아" />
 
             <Spinner
-                android:id="@+id/spinner3"
+                android:id="@+id/spinner_malaria"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:entries="@array/data_malaria" />
@@ -88,13 +88,13 @@
             android:layout_height="match_parent">
 
             <Button
-                android:id="@+id/button4"
+                android:id="@+id/button_Jakob"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="변종 크로이츠펠트 - 야콥병" />
 
             <Spinner
-                android:id="@+id/spinner4"
+                android:id="@+id/spinner_Jakob"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:entries="@array/data_jakob" />
@@ -105,12 +105,18 @@
             android:layout_height="match_parent">
 
             <Button
-                android:id="@+id/button5"
+                android:id="@+id/button_OK"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="완료" />
 
         </TableRow>
+
+        <ImageView
+            android:id="@+id/imageView_show"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:srcCompat="@drawable/medic" />
 
     </TableLayout>
 
@@ -159,4 +165,5 @@
             tools:layout_editor_absoluteY="684dp" />
 
     </LinearLayout>
+
 </android.support.constraint.ConstraintLayout>
