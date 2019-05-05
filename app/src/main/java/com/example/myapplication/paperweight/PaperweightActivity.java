@@ -6,6 +6,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.Spinner;
+import android.widget.TableLayout;
 import android.widget.Toast;
 
 import com.example.myapplication.R;
@@ -24,7 +25,9 @@ public class PaperweightActivity extends AppCompatActivity {
     Spinner spinner_year;
     Spinner spinner_else;
 
-    ImageView imageView;
+    //ImageView imageView;
+
+    TableLayout tableLayout;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -35,13 +38,16 @@ public class PaperweightActivity extends AppCompatActivity {
         //배제대상 예/아니오 선택시 실행
         btn_yes = (Button) findViewById(R.id.btn_yes);
         btn_no = (Button) findViewById(R.id.btn_no);
-        imageView = (ImageView) findViewById(R.id.imageView);
+
+        //imageView = (ImageView) findViewById(R.id.imageView);
+        tableLayout = (TableLayout) findViewById(R.id.tableLayout3);
 
         //이미지 비가시화
         btn_yes.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                imageView.setVisibility(View.INVISIBLE);
+                //imageView.setVisibility(View.INVISIBLE);
+                tableLayout.setVisibility(View.INVISIBLE);
             }
         });
 
