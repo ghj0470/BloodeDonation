@@ -16,7 +16,7 @@
         tools:layout_editor_absoluteY="71dp" />
 
     <Button
-        android:id="@+id/button15"
+        android:id="@+id/savebtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="저장"
@@ -54,17 +54,19 @@
     <EditText
         android:layout_width="288dp"
         android:layout_height="295dp"
+        android:id="@+id/context"
         tools:layout_editor_absoluteX="77dp"
         tools:layout_editor_absoluteY="305dp" />
 
     <EditText
         android:layout_width="283dp"
         android:layout_height="46dp"
+        android:id="@+id/titletext"
         tools:layout_editor_absoluteX="78dp"
         tools:layout_editor_absoluteY="189dp" />
 
     <Button
-        android:id="@+id/button11"
+        android:id="@+id/refbtn"
         android:layout_width="88dp"
         android:layout_height="44dp"
         android:text="파일"

@@ -14,6 +14,9 @@ import android.widget.ImageButton;
 import android.widget.ListView;
 import android.widget.Toast;
 
+import com.example.myapplication.MainActivity;
+import com.example.myapplication.R;
+
 import org.json.JSONArray;
 
 import java.io.BufferedReader;
@@ -28,8 +31,7 @@ public class LoginActivity extends AppCompatActivity {
 
     EditText ev_id;
     EditText ev_pwd;
-    ImageButton btn_regist;
-    ImageButton btn_login;
+    Button btn_login;
 
     boolean result_login = false;
     @Override
@@ -37,25 +39,18 @@ public class LoginActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
 
-        ev_id = (EditText)findViewById(R.id.ev_id);
-        ev_pwd = (EditText)findViewById(R.id.ev_pwd);
-        btn_login = (ImageButton)findViewById(R.id.btn_login);
-        btn_regist= (ImageButton)findViewById(R.id.btn_regist);
+        ev_id = (EditText)findViewById(R.id.id);
+        ev_pwd = (EditText)findViewById(R.id.password);
+        btn_login = (Button)findViewById(R.id.logbtn);
 
-        btn_regist.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(LoginActivity.this,RegistActivity.class);
-                startActivity(intent);
 
-            }
-        });
+
         btn_login.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 if (ev_id.getText().toString().equals("admin")){
                     if (ev_pwd.getText().toString().equals("1234")){
-                        Intent intent = new Intent(getApplicationContext(),regist_bank.class);
+                        Intent intent = new Intent(getApplicationContext(),AdminActivity.class);
                         startActivity(intent);
                     }
                 }else {
@@ -94,7 +89,7 @@ public class LoginActivity extends AppCompatActivity {
             else{
 
                 if(result.equals("1")) {
-                    Intent intent = new Intent(LoginActivity.this,MainActivity.class);
+                    Intent intent = new Intent(LoginActivity.this, AdminActivity.class);
                     startActivity(intent);
                     savePreferences("id", ev_id.getText().toString());
                     finish();
