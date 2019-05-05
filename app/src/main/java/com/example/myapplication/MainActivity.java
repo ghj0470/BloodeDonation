@@ -6,6 +6,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageView;
 import android.widget.ListView;
 
 import com.example.myapplication.admin.LoginActivity;
@@ -30,6 +31,10 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+        ImageView image = (ImageView)findViewById(R.id.imageView);
+
+        image.setImageResource(R.drawable.batery);
 
         admin.setOnClickListener(new View.OnClickListener() {
             @Override

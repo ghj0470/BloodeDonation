@@ -7,7 +7,9 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.Toast;
 
+import com.example.myapplication.MainActivity;
 import com.example.myapplication.R;
 import com.example.myapplication.paperweight.SecondActivity;
 import com.example.myapplication.paperweight.SecondOneActivity;
@@ -45,7 +47,8 @@ public class SecondTwoActivity extends AppCompatActivity {
             btn2.setOnClickListener(new View.OnClickListener(){
                 @Override
                 public void onClick(View v) {
-                    // Toast.makeText(this,"현재 화면입니다.",Toast.LENGTH_LONG).show();
+                    Intent intent=new Intent(SecondTwoActivity.this, MainActivity.class);
+                    startActivity(intent);
                 }
             });
             btn3.setOnClickListener(new View.OnClickListener(){
@@ -65,8 +68,8 @@ public class SecondTwoActivity extends AppCompatActivity {
             btn5.setOnClickListener(new View.OnClickListener(){
                 @Override
                 public void onClick(View v) {
-                    Intent intent=new Intent(SecondTwoActivity.this,SecondTwoActivity.class);
-                    startActivity(intent);
+
+                    Toast.makeText(SecondTwoActivity.this,"현재 화면입니다.", Toast.LENGTH_LONG).show();
                 }
             });
         }
