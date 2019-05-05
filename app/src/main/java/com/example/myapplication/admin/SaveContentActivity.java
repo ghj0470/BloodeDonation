@@ -45,17 +45,17 @@ public class SaveContentActivity extends AppCompatActivity {
         sbtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if(con.getText().toString()&&tit.getText().toString()){
 
-                }
-                else{
+
                     if(con.getText().toString().equals("")){
                         Toast.makeText(SaveContentActivity.this,"내용이 없습니다.",Toast.LENGTH_SHORT).show();
                     }
                     else if(tit.getText().toString().equals("")){
                         Toast.makeText(SaveContentActivity.this,"제목이 없습니다.",Toast.LENGTH_SHORT).show();
                     }
-                }
+                    else{
+
+                    }
             }
         });
 

@@ -7,6 +7,9 @@ import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.Spinner;
 import android.widget.Toast;
+
+import com.example.myapplication.R;
+
 public class SecondOneActivity {
 
 
@@ -30,6 +33,7 @@ public class SecondOneActivity {
         protected void onCreate(Bundle savedInstanceState) {
             super.onCreate(savedInstanceState);
             //합치면 출력 레이아웃 바꿔라아아아ㅏㅏㅏㅏ
+
             setContentView(R.layout.activity_paperweight);
 
             //배제대상 예/아니오 선택시 실행
