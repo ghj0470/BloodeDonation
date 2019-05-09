@@ -18,6 +18,7 @@ public class AdminActivity extends AppCompatActivity {
         Button cbtn = (Button)findViewById(R.id.conbutton);
         Button rbtn = (Button)findViewById(R.id.rewardbutton);
         Button lobtn = (Button)findViewById(R.id.logoutbutton);
+        Button dbtn = (Button)findViewById(R.id.deletebutton);
 
         cbtn.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -35,6 +36,15 @@ public class AdminActivity extends AppCompatActivity {
             }
         });
 
+        dbtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+
+                Intent intent=new Intent(AdminActivity.this,deleteActivity.class);
+                startActivity(intent);
+            }
+        });
         lobtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
