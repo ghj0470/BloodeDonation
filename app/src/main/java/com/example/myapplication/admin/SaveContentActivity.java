@@ -54,7 +54,8 @@ public class SaveContentActivity extends AppCompatActivity {
                         Toast.makeText(SaveContentActivity.this,"제목이 없습니다.",Toast.LENGTH_SHORT).show();
                     }
                     else{
-
+                        Dbname=delist.toString();
+                        insertDatabase(Dbname);
                     }
             }
         });

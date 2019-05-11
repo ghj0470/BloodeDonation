@@ -2,6 +2,7 @@ package com.example.myapplication.information;
 
 
 import android.content.Intent;
+import android.database.sqlite.SQLiteDatabase;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
@@ -16,6 +17,8 @@ import com.example.myapplication.paperweight.SecondOneActivity;
 
 
 public class SecondTwoActivity extends AppCompatActivity {
+
+
 
         @Override
         protected void onCreate(Bundle savedInstanceState) {
@@ -72,6 +75,11 @@ public class SecondTwoActivity extends AppCompatActivity {
                     Toast.makeText(SecondTwoActivity.this,"현재 화면입니다.", Toast.LENGTH_LONG).show();
                 }
             });
+        }
+
+        public void openDatabase(String databaseFile){
+            SQLiteDatabase db;
+            db = SQLiteDatabase.openDatabase(databaseFile,null,SQLiteDatabase.OPEN_READWRITE+SQLiteDatabase.CREATE_IF_NECESSARY);
         }
     }
 
