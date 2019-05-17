@@ -41,6 +41,7 @@ public class SecondActivity extends AppCompatActivity {
         Button btn2 = (Button)findViewById(R.id.button_malaria);
         Button btn3 = (Button)findViewById(R.id.button_Jakob);
         Button btn4 = (Button)findViewById(R.id.button_OK);
+        Button btn5 = (Button)findViewById(R.id.history);
         Spinner year = (Spinner)findViewById(R.id.year);
         Spinner month = (Spinner)findViewById(R.id.month);
         Spinner day = (Spinner)findViewById(R.id.day);
@@ -70,6 +71,13 @@ public class SecondActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent=new Intent(SecondActivity.this, SecondTwoActivity.class);
+                startActivity(intent);
+            }
+        });
+        btn5.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View v) {
+                Intent intent=new Intent(SecondActivity.this, historyActivity.class);
                 startActivity(intent);
             }
         });

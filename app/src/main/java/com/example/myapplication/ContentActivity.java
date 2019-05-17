@@ -19,12 +19,10 @@ public class ContentActivity extends AppCompatActivity {
 
         TextView tit = (TextView)findViewById(R.id.titlecon);
         TextView date = (TextView)findViewById(R.id.datecon);
-        TextView ref = (TextView)findViewById(R.id.refcon);
         TextView con = (TextView)findViewById(R.id.concon);
 
         String title = (String) tit.getText();
         String day = (String) date.getText();
-        String referencce = (String) ref.getText();
         String content= (String) con.getText();
 
         boolean isOpen = openDatabase();
@@ -32,8 +30,8 @@ public class ContentActivity extends AppCompatActivity {
             Cursor cursor = executeRawQueryParam();
             startManagingCursor(cursor);
 
-            String[] colunms = new String[]{"title","day","reference","content"};
-            int[] to = new int[]{R.id.titlecon,R.id.datecon,R.id.refcon,R.id.concon};
+            String[] colunms = new String[]{"title","day","content"};
+            int[] to = new int[]{R.id.titlecon,R.id.datecon,R.id.concon};
 
             SimpleCursorAdapter mAdapter = new SimpleCursorAdapter(this,R.layout.activity_content,cursor,colunms,to);
         }

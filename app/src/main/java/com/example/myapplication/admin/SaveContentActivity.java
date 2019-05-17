@@ -19,7 +19,6 @@ public class SaveContentActivity extends AppCompatActivity {
 
     EditText con;
     EditText tit;
-    Button rbtn;
     Button sbtn;
 
     @Override
@@ -29,16 +28,10 @@ public class SaveContentActivity extends AppCompatActivity {
 
         con = (EditText)findViewById(R.id.context);
         tit = (EditText)findViewById(R.id.titletext);
-        rbtn = (Button)findViewById(R.id.refbtn);
+
         sbtn = (Button)findViewById(R.id.savebtn);
 
 
-        rbtn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-
-            }
-        });
 
 
 

@@ -34,15 +34,6 @@
         tools:layout_editor_absoluteY="189dp" />
 
     <TextView
-        android:id="@+id/textView26"
-        android:layout_width="61dp"
-        android:layout_height="44dp"
-        android:text="참조"
-        android:textSize="30sp"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="240dp" />
-
-    <TextView
         android:id="@+id/textView27"
         android:layout_width="61dp"
         android:layout_height="34dp"
@@ -65,11 +56,4 @@
         tools:layout_editor_absoluteX="78dp"
         tools:layout_editor_absoluteY="189dp" />
 
-    <Button
-        android:id="@+id/refbtn"
-        android:layout_width="88dp"
-        android:layout_height="44dp"
-        android:text="파일"
-        tools:layout_editor_absoluteX="78dp"
-        tools:layout_editor_absoluteY="240dp" />
 </android.support.constraint.ConstraintLayout>

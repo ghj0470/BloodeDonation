@@ -59,23 +59,6 @@
         <TableRow>
 
             <TextView
-                android:id="@+id/tex8"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="참조"
-                android:textSize="36sp" />
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:id="@+id/refcon"
-                android:textAlignment="center"
-                android:textSize="36sp" />
-        </TableRow>
-
-        <TableRow>
-
-            <TextView
                 android:id="@+id/t"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
