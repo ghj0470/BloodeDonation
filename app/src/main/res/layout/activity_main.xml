@@ -12,7 +12,7 @@
         android:id="@+id/imageView"
         android:layout_width="346dp"
         android:layout_height="212dp"
-        app:srcCompat="@drawable/batery"
+        app:srcCompat="@drawable/wtf"
         tools:layout_editor_absoluteX="32dp"
         tools:layout_editor_absoluteY="108dp"
         tools:ignore="MissingConstraints" />
@@ -26,13 +26,12 @@
         tools:layout_editor_absoluteY="615dp"
         tools:ignore="MissingConstraints" />
 
-    <ListView
+    <android.support.v7.widget.RecyclerView
         android:id="@+id/dayContacts"
         android:layout_width="match_parent"
         android:layout_height="173dp"
         android:scrollbars="vertical"
         tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="0dp"
         tools:layout_editor_absoluteY="424dp" />
 
     <TextView
@@ -43,14 +42,5 @@
         android:text="공지사항"
         android:textSize="30sp"
         tools:layout_editor_absoluteX="148dp"
-        tools:layout_editor_absoluteY="367dp"
-        tools:ignore="MissingConstraints" />
-
-    <Button
-        android:id="@+id/admin"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="관리자"
-        tools:layout_editor_absoluteX="289dp"
-        tools:layout_editor_absoluteY="16dp" />
+        tools:layout_editor_absoluteY="367dp" />
 </android.support.constraint.ConstraintLayout>

@@ -228,7 +228,8 @@
                 android:id="@+id/textView11"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="배제대상" />
+                android:text="배제대상"
+                android:textSize="30sp" />
         </TableRow>
 
         <TableRow
